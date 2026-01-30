@@ -2,7 +2,7 @@
 
 Momentum is a minimalist, aesthetic productivity app designed to help you organize your day with calm and focus.
 
-✨ Features
+## ✨ Features
 
 Clean Dashboard: See your events and tasks at a glance.
 
@@ -20,11 +20,11 @@ Privacy First: All data is stored locally on your device.
 
 Dark Mode: Beautiful dark theme with glowing borders.
 
-📱 Screenshots
+## 📱 Screenshots
 
 (You can upload screenshots here later)
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 React
 
@@ -34,16 +34,9 @@ Tailwind CSS
 
 Capacitor (Android)
 
-📥 Download
+## 📥 Download
 
 Go to the Releases page to download the latest .apk for Android.
 
-🚀 Development
-
-Clone the repo
-
-npm install
-
-npm run dev
 
 Made with 💙 by Jurij
