@@ -1,4 +1,4 @@
-Momentum 🎧
+## Momentum 🎧
 
 Momentum is a minimalist, aesthetic productivity app designed to help you organize your day with calm and focus.
 
