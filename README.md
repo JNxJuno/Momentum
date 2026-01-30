@@ -22,8 +22,8 @@ Dark Mode: Beautiful dark theme with glowing borders.
 ## 📱 Screenshots
 
  <p align="center">
-  <img src="screenshots/home.png" width="250" title="Home Screen">
-  <img src="screenshots/settings.png" width="250" title="Settings Screen">
+  <img src="screenshots/home.jpg" width="250" title="Home Screen">
+  <img src="screenshots/settings.jpg" width="250" title="Settings Screen">
 </p>
 
 ## 🛠 Tech Stack
