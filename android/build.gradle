@@ -1,0 +1,39 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // AGP auf Version 8.3.2 aktualisiert
+        classpath 'com.android.tools.build:gradle:8.3.2'
+        classpath 'com.google.gms:google-services:4.4.1'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.23'
+    }
+}
+
+// WICHTIG: Diese Zeile lädt die Variablen wie compileSdkVersion
+apply from: 'variables.gradle'
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// WICHTIG: Dieser Block löst den "Duplicate Class" Fehler
+subprojects {
+    configurations.all {
+        resolutionStrategy {
+            force 'org.jetbrains.kotlin:kotlin-stdlib:1.9.23'
+            force 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.23'
+            force 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
