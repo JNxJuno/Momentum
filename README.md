@@ -1,16 +1,48 @@
-# React + Vite
+# Momentum 🎧
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Momentum is a minimalist, aesthetic productivity app designed to help you organize your day with calm and focus.
 
-Currently, two official plugins are available:
+## ✨ Features
+Clean Dashboard: See your events and tasks at a glance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Focus Timer: Integrated timer to boost your productivity sessions.
 
-## React Compiler
+Customizable Aesthetics:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Choose from 5 pastel themes (Dream, Ocean, Lavender, Sunset, Mint).
 
-## Expanding the ESLint configuration
+Minimal Mode (High Contrast Black & White).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Glassmorphism & Standard designs.
+
+Privacy First: All data is stored locally on your device.
+
+Dark Mode: Beautiful dark theme with glowing borders.
+
+## 📱 Screenshots
+
+ <p align="center">
+  <img src="screenshots/home.png" width="250" title="Home Screen">
+  <img src="screenshots/settings.png" width="250" title="Settings Screen">
+</p>
+
+## 🛠 Tech Stack
+React
+
+Vite
+
+Tailwind CSS
+
+Capacitor (Android)
+
+## 📥 Download
+Go to the Releases page to download the latest .apk for Android.
+
+## 🚀 Development
+Clone the repo
+
+npm install
+
+npm run dev
+
+# Made with 💙 by Juno
