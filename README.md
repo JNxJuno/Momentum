@@ -46,4 +46,4 @@ npm install
 
 npm run dev
 
-##  Made with 💙 by Jurij
+##  Made with 💙 by Juno
